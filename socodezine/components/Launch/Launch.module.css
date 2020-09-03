@@ -1,0 +1,21 @@
+.background {
+    background: url('./logo.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.timer {
+    font-family: "Courier New", Courier, monospace;
+    position: center;
+    font-size:17px;
+    font-weight: 550;
+}
+
+.timerdiv {
+    text-align: center;
+    margin-top: 110%;
+   
+}
