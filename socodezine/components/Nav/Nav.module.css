@@ -11,12 +11,16 @@
 
 .directoryOpen{
     display: inline;
+    padding-left: 5%;
 }
 
 .directoryHide{ 
     display: none;
 }
 
-.displayNav{
-    color: red 
+.link{
+    padding-left: 5%; 
+    padding-right:5%;
 }
+
+
