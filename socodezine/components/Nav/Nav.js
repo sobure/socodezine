@@ -4,17 +4,22 @@ import Link from 'next/link'
 
 export default function Nav() {
     const [nav, setNav] = useState(styles.directoryHide)
-    
+    const [menu, setMenu] = useState(styles.Menu)
+    const [home, setHome] = useState(styles.home)
+
     const slidebar = () => {
         console.log('hello')
         setNav(styles.directoryOpen);
+        setMenu(styles.home);
+        setHome(styles.homebutton);
     }
 
     return (
         <>
         <div className={styles.flexRow}>
-            <div className={styles.Menu}><a onClick={slidebar}>MENU</a>
+            <div className={menu}><a onClick={slidebar}>MENU</a>
             </div>
+            <div className={home}><Link href='/'><a>HOME</a></Link></div>
             <div className={nav}>
                 <Link href='/works'>
                     <a className={styles.link}>works</a>

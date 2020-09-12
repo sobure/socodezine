@@ -23,4 +23,11 @@
     padding-right:5%;
 }
 
+.home{
+    display: none;
+}
 
+.homebutton{
+    display: inline;
+    padding-left: 5%;
+}

@@ -34,7 +34,7 @@ export default function Launch() {
     return (
         <body className={styles.background}>
             <div className={styles.timerdiv}>
-            <h2 className={styles.timer}> 0{date.day}:0{date.hour}:{date.minutes}:{date.seconds} 
+            <h2 className={styles.timer}> {date.day}:{date.hour}:{date.minutes}:{date.seconds} 
             </h2>
             </div>
         </body>
