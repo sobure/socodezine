@@ -1,0 +1,10 @@
+.img{ 
+    border-radius: 50%;
+}
+
+.text{
+font-family: "Courier New", Courier, monospace;
+    position: center;
+    font-size:17px;
+    font-weight: 550;
+}
