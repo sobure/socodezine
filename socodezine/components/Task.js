@@ -1,5 +1,5 @@
 // src/compoenents/TAsk.js
-import REact from 'react';
+import React from 'react';
 
 export default function Task({ task: { id, title, state }, onArchiveTask, onPinTask}) {
     return (

@@ -23,8 +23,8 @@ export default function team() {
         <h1>{profile.name}</h1>
         <h2>{profile.position}</h2>
         <img src={profile.img} className={styles.img}/>
-    
-        <div> - about solo-</div>
+
+        <div> - about solo - </div>
         <p>It may not be obvious, but Solo studied Mechanical Eningeering at the Unvierstiy of Georgia.</p>
         </div>
         <div></div>
