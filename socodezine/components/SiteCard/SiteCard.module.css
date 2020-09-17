@@ -1,0 +1,50 @@
+.boxphoto{
+    width:386px;
+}
+
+.content{
+    widht:386px;
+    height:97px;
+}
+
+.contentItems{
+    padding: 20px;
+    display: block;
+    font-size: 14px;
+    font-weight: 300px;
+    font-family: "apercu", sans-serif;
+    background-color: whitesmoke;
+    text-rendering: optimizeLegibility;
+}
+
+.boxleft{
+    padding: 0px 10px 0px 0px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.boxright{
+    
+}
+
+.react{
+    background-color: #9FD2D6;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 15px;
+    padding: 1px 5px 0 5px;
+    line-height: normal;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border-radius: 36px;
+}
+
+.tech{
+    display: flex;
+    justify-content: space-between;
+}

@@ -17,9 +17,9 @@ export default function Nav() {
     return (
         <>
         <div className={styles.flexRow}>
-            <div className={menu}><a onClick={slidebar}>MENU</a>
+            <div className={menu}><a onClick={slidebar}>menu</a>
             </div>
-            <div className={home}><Link href='/'><a>HOME</a></Link></div>
+            <div className={home}><Link href='/'><a>home</a></Link></div>
             <div className={nav}>
                 <Link href='/works'>
                     <a className={styles.link}>works</a>
@@ -28,10 +28,13 @@ export default function Nav() {
                     <a className={styles.link}>blog</a>
                 </Link>
                 <Link href='/about'>
-                    <a className={styles.link}>about</a>
+                    <a className={styles.link}>about
+                    </a>
                 </Link>
             </div>
             </div>
         </>
     )
 }
+
+// color:rgb(92, 231, 180);

@@ -1,12 +1,13 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .flexRow{
     display: inline-flex;
     font-size: 14px;
     padding: 0.5rem; 
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     position: center;
-    font-weight: 550;
+    color: rgb(222, 219, 215);
+    font-style: italic;
 }
 
 .directoryOpen{
@@ -31,3 +32,6 @@
     display: inline;
     padding-left: 5%;
 }
+
+
+

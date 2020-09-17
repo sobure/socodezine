@@ -5,7 +5,7 @@ export default function blog() {
     return (
         <>
         <Nav></Nav>
-        <h2>blog</h2>
+        <h2 classNames={styles.tag}>blog</h2>
         </>
     )
 }

@@ -1,11 +1,8 @@
 .background {
-    background: url('./logo.png');
     background-repeat: no-repeat;
     background-size: 90%;
     background-attachment: fixed;
     background-position: center;
     background-color: #181a1b;
-    padding-top: 3 rem;
-    
+    padding-top: 3rem;
 }
-

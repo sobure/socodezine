@@ -6,7 +6,6 @@ export default function about() {
     return (
         <>
         <Nav></Nav>
-       
         <Team></Team>
         </>
     )

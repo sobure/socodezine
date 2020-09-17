@@ -1,12 +1,12 @@
 import Launch from "../components/Launch/Launch.js";
 import Nav from "../components/Nav/Nav.js";
+import Sitetag from '../components/siteTag/siteTag.js'
 function HomePage() {
   return(
  <>
     <Nav></Nav>
+    <Sitetag></Sitetag>
     <Launch>
-          
-      <div>Welcome to Next.js!</div>
     </Launch>
   </>
   )
