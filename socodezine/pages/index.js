@@ -4,7 +4,7 @@ import Sitetag from '../components/siteTag/siteTag.js'
 function HomePage() {
   return(
  <>
-    <Nav></Nav>
+
     <Sitetag></Sitetag>
     <Launch>
     </Launch>

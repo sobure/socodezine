@@ -5,7 +5,6 @@ import Team from '../components/team/Team.js'
 export default function about() {
     return (
         <>
-        <Nav></Nav>
         <Team></Team>
         </>
     )
