@@ -1,9 +1,11 @@
+
 .boxphoto{
     width:386px;
+
 }
 
 .content{
-    widht:386px;
+    width:386px;
     height:97px;
 }
 
@@ -15,6 +17,7 @@
     font-family: "apercu", sans-serif;
     background-color: whitesmoke;
     text-rendering: optimizeLegibility;
+    border-radius: 1px 1px 1px 1px;
 }
 
 .boxleft{
@@ -47,4 +50,15 @@
 .tech{
     display: flex;
     justify-content: space-between;
+}
+
+.img{
+    border-radius: 1px 1px 0 0;
+    position: inherit;
+    width:100%;
+}
+
+.sitecard{
+    width: 100%;
+    align-content: center;
 }

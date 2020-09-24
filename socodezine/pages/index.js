@@ -4,8 +4,10 @@ import Sitetag from '../components/siteTag/siteTag.js'
 function HomePage() {
   return(
  <>
-    <Nav></Nav>
+
     <Sitetag></Sitetag>
+    <a href="/contact-us" className="button header w-button button">Let's talk</a>
+  
     <Launch>
     </Launch>
   </>

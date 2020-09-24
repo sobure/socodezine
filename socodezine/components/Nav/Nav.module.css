@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .flexRow{
-    display: inline-flex;
+    display: inline-block;
     font-size: 14px;
-    padding: 0.5rem; 
+    padding: 1rem; 
     font-family: 'Montserrat', sans-serif;
     position: center;
-    color: rgb(222, 219, 215);
+    color: rgb(204, 154, 88);
     font-style: italic;
+    width: 100%;
 }
+
 
 .directoryOpen{
     display: inline;
