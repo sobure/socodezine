@@ -1,10 +1,19 @@
-.img{ 
-    border-radius: 50%;
+.img {
+  border-radius: 50%;
+  display: inline-flex;
+
 }
 
-.text{
-font-family: "Courier New", Courier, monospace;
-    position: center;
-    font-size:17px;
-    font-weight: 550;
+.text {
+  font-family: "Courier New", Courier, monospace;
+  position: center;
+  font-size: 17px;
+  font-weight: 550;
 }
+
+.flexrow{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: justify-content
+}
+

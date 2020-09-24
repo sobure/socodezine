@@ -4,7 +4,11 @@ import Launch from "../components/Launch/Launch.js";
 export default function blog() {
     return (
         <>
-        <h2>blog</h2>
+        <div className='blog-container'>
+        <h1 className="blog">Coming Soon !</h1>
+        <h1 className="blog">Coming Soon !</h1>
+        <h1 className="blog">Coming Soon !</h1>
+        </div>
         </>
     )
 }

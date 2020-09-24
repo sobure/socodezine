@@ -6,6 +6,8 @@ function HomePage() {
  <>
 
     <Sitetag></Sitetag>
+    <a href="/contact-us" className="button header w-button button">Let's talk</a>
+  
     <Launch>
     </Launch>
   </>
