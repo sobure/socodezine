@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+body{
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #181a1b;
+    height:100%;
+}
+
+html{
+    height:100%;
+    width: 100%
+}
+
+.blog{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    padding-left: 35%;
+    font-size: 42px;
+    letter-spacing: 0.1rem;
+    color: rgb(204, 154, 88);
+}
+
+.blog-container{
+    padding-top:200px;
+}
+
+.button{
+    width: 171px;
+    display: inline-flex;
+    justify-self: flex-start;
+    flex-direction: row;
+    background-color: aquamarine;
+
+    margin-left: auto;
+    background-color: #ff8e5e;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.button.header {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    border-style: solid;
+    border-width: 0;
+    border-color: transparent;
+    box-shadow: 0 0 0 0 rgba(255,142,94,.5);
+    -webkit-transition: box-shadow 130ms ease,top 130ms ease-out,left 130ms ease-out,background-color 130ms ease-out;
+    transition: box-shadow 130ms ease,top 130ms ease-out,left 130ms ease-out,background-color 130ms ease-out;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+
+.contactDiv{
+    width: 10%;
+    height:10%;
+    background-color: aqua;
+}
