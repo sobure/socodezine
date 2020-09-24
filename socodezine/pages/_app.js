@@ -1,6 +1,6 @@
 import Launch from "../components/Launch/Launch.js";
 import Nav from "../components/Nav/Nav.js";
-import Head from 'next/Head'
+import Head from 'next/head'
 import './pagestyles/styles.css'
 
 
