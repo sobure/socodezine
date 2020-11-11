@@ -41,4 +41,3 @@ export default function Nav() {
   );
 }
 
-// color:rgb(92, 231, 180);
