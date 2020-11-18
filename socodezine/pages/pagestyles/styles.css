@@ -1,12 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+SC:wght@500&display=swap');
+
+
 body{
     background-repeat: no-repeat;
     background-size: 90%;
     background-attachment: fixed;
     background-position: center;
-    background-color: #181a1b;
+    margin: 0px; 
     height:100%;
 }
 

@@ -2,12 +2,11 @@
 
 .flexRow{
     display: inline-block;
-    font-size: 14px;
-    padding: 1rem; 
+    font-size: 14px; 
     font-family: 'Montserrat', sans-serif;
     position: center;
     color: rgb(204, 154, 88);
-    font-style: italic;
+    
     width: 100%;
 }
 

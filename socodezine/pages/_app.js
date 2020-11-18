@@ -13,7 +13,7 @@ import {
 export default function MyApp({ Component, pageProps }) {
 
   return (
-    <div className='body'>
+    <div className='body appBar'>
       <Head>
         <title>So&Co</title>
       </Head>
