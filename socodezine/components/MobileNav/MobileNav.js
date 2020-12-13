@@ -48,21 +48,19 @@ export default function ButtonAppBar() {
     setMenu(styles.home);
     setHome(styles.homebutton);
   };
-  
+
   return (
     <div className={classes.root}>
       <AppBar position="static" className={classes.AppBar} >
         <Toolbar>
-          <Typography variant="h6" className={classes.title}>
+          <Link href="/">
+            <Typography variant="h6" className={classes.title}>
              soco
           </Typography>
+          </Link>
           <>
       <div className={styles.flexRow}>
-        <div className={home}>
-          <Link href="/">
-            <a>home</a>
-          </Link>
-        </div>
+
         <div className={nav}>
           <Link href="/works">
             <a className={styles.link}>works</a>
