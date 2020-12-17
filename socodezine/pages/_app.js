@@ -1,4 +1,3 @@
-import Launch from '../components/Launch/Launch.js';
 import Nav from '../components/Nav/Nav.js';
 import MobileNav from '../components/MobileNav/MobileNav.js'
 import Head from 'next/head'
