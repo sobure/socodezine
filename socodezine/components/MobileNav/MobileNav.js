@@ -7,7 +7,6 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import Nav from '../Nav/Nav'
 import styles from "../Nav/Nav.module.css";
 import Link from "next/link";
 
@@ -22,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     fontFamily: 'Noto Sans SC, sans-serif',
-    fontSize: '24px',
+    fontSize: '28px',
     color:'black'
   },
   AppBar:{
@@ -60,7 +59,6 @@ export default function ButtonAppBar() {
           </Link>
           <>
       <div className={styles.flexRow}>
-
         <div className={nav}>
           <Link href="/works">
             <a className={styles.link}>works</a>
@@ -76,9 +74,7 @@ export default function ButtonAppBar() {
     </>
            <IconButton edge="end" className={classes.menuButton} color="inherit" aria-label="menu" onClick={slidebar}>
             <MenuIcon />
-          
           </IconButton>
-          
         </Toolbar>
       </AppBar>
     </div>
